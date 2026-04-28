@@ -7,11 +7,11 @@ To ensure a reproducible and isolated development environment, a dedicated Pytho
 Initially, the notebook could not execute because the Jupyter kernel (ipykernel) was missing, and the default python command was not recognised in the system PATH. Additionally, the installed Python distribution was externally managed, preventing direct package installation to the global environment. To resolve this, a local virtual environment was created using the full Python executable path.
 
 ## Environment Setup Steps in vs terminal
-**1. Create virtual environment:**
+**1. Create virtual environment(optional)**
 c:/Users/badia/.local/bin/python3.14.exe (where your python is installed) -m venv venv 
 a folder should appear named 'venv'
 
-**2. Activate the virtual environment**
+**2. Activate the virtual environment(optional)**
 venv\Scripts\activate
 the terminal should show (venv) in green in terminal. 
 
